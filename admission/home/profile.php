@@ -87,6 +87,15 @@
                                         <label>Registration Date</label>
                                         <input type="text" name="reg_date" class="form-control" value= "<?php echo $details[9]; ?> " disabled>
                                     </div>
+                                    <?php
+                                    $query_course = "SELECT coursename FROM selected_courses WHERE ID = '{$details[0]}'";
+                                        $result_course = $mysqli->query($query_course) or die($mysqli->error);
+                                        if($result_course->num_rows > 0) {
+                                            $course_row = $result_course->fetch_assoc();
+                                            $course_name = $course_row['coursename'];
+                                            echo "<div class='form-group'><label>Faculty</label><input type='text' name='course' class='form-control' value='$course_name' disabled></div>";
+                                        }
+                                    ?>
                                 </div>
                             </div>
                         </div>
@@ -139,5 +148,3 @@
         height: auto; /* Автоматическое вычисление высоты изображения */
     }
 </style>
-
-
