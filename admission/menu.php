@@ -1,7 +1,7 @@
 <!-- No Need of session_start();-->
 <a href="index.php"> <img src="img/logo.png" /> </a>
 <!-- <a href="index.php"> <img src="img/ktmu.png" /> </a> -->
-<title>Sri Sankara Bhagavathi Arts & Science College,Kommadikottai</title>
+<title>Manas University</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="style.css" type="text/css">
