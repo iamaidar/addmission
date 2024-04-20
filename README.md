@@ -1,2 +1,2 @@
 # addmission
-College Admission System
+Masters's and PhD Admission System
